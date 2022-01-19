@@ -1,0 +1,17 @@
+---  # go http://www.yamllint.com to check the format
+person: 
+  age: 35
+  is_male: true
+  lucky_numbers: 
+    - 9
+    - 19
+    - 24
+  name: John
+  programming_languages: 
+    - name: "C#"
+      released_year: 2000
+    - name: "python"
+      released_year: 1991
+  weight: 72.5
+
+# YAML stands for yet another markup language. YAML is a data serialization language that is often used for writing configuration files. YAML is a popular programming language because it is human-readable and easy to understand. It can also be used in conjunction with other programming languages. More info: https://www.redhat.com/en/topics/automation/what-is-yaml

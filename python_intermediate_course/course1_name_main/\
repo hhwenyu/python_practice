@@ -1,0 +1,6 @@
+import module1
+
+print(f"Game File:{__name__}")
+
+def run():
+	print('Game Started'):

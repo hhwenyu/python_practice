@@ -1,0 +1,11 @@
+This is not going to be a cool file.
+Anyway, I think you will be able to read that out.
+Good luck!
+
+Here are some tips:
+1) Be careful
+2) Be more careful
+3) Remember that Python is fun
+4) Fourth line
+
+5) A tipe from Python program!
