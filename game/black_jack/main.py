@@ -19,9 +19,11 @@ class Deck:
 class Player(Deck):
 	
 	cards_value = {1 :1 , 2: 2 , 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10, 11:10, 12:10, 13:10}
-	def __init__(self,name, card=[], value = 0):
+	def __init__(self,name, card= None, value = 0):
 		super().__init__()
 		self.name = name
+		if not card:
+			card = []
 		self.card = card
 		self.value = value
 		
@@ -40,8 +42,8 @@ class Player(Deck):
 cards = Deck()
 
 run = 0
-p1 = Player('dealer',[])
-p2 = Player('player',[])
+p1 = Player('dealer')
+p2 = Player('player')
 #print(p1.winning_prob(cards.cards))
 #print(p2.winning_prob(cards.cards))
 while run <= 10:
